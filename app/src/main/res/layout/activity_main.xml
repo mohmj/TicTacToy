@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/main_activity_first_player_name_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -27,7 +27,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/main_activity_second_player_name_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -72,8 +72,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -85,8 +85,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -100,8 +100,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -122,8 +122,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -135,8 +135,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -150,8 +150,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -172,8 +172,8 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -185,8 +185,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="48dp" />
@@ -198,13 +198,13 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/default_button_background"
                 android:gravity="center"
-                android:text="X"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="48dp"
-                android:layout_marginBottom="10dp" />
+                android:textSize="48dp" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
